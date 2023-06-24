@@ -41,7 +41,7 @@ spec:
     - name: lint
       workspaces:
         - name: source
-          workspace: pipeline-workspace          
+          workspace: pipeline-workspace
       taskRef:
         name: flake8
       params:
