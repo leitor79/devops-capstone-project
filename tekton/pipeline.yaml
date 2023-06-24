@@ -48,7 +48,7 @@ spec:
       - name: image
         value: "python:3.9-slim"
       - name: args
-        value: ["--count","--max-complexity=10","--max-line-length=127","--statistics"]
+        value: "--count --max-complexity --max-line-length=127 --statistics"
       runAfter:
         - clone
 
